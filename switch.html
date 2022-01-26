@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch</title>
+</head>
+<body>
+    <h3>Nilai Yang Didapat</h3>
+    <p id="demo"></p>
+    <script>
+        const nilai = 20;
+let greeting;
+if (nilai >= 90) {
+  greeting = "A";
+} else if (nilai >= 80) {
+  greeting = "B+";
+} else if (nilai >= 70) {
+    greeting = "B";
+} else if (nilai <= 70) {
+    greeting = "F";
+}    else {
+  greeting = "Maaf, Nilai Kamu Belum Masuk";
+}
+document.getElementById("demo").innerHTML = greeting;
+    </script>
+</body>
+</html>

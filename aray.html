@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+const computer = ["motherboard", "CPU", "LAN Card", "WLAN Card", "Heat Sink", "Power Suppley", "Optical Drive", "Hard Disk", "mouse", "RAM"];
+
+let text = "";
+
+for (let i = 1; i < 11; i++) {
+  text += i + "." + computer[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+<ol>
+  <li>motherboard</li>
+  <li>CPU</li>
+  <li>LAN Card</li>
+  <li>WLAN Card</li>
+  <li>Heat Sink</li>
+  <li>Power Suppley</li>
+  <li>Optical Drive</li>
+  <li>Hard Disk</li>
+  <li>mouse</li>
+  <li>RAM</li>
+</ol>
+</body>
+</html>
